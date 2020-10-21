@@ -1,0 +1,49 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+:root {
+  /* BASE COLORS */
+  /* Base color token names are derived from the color's */
+  /* HSL lightness value and mapped to decision tokens below. */
+  /* Only decision tokens are used in component styles. */
+  --rz-color-neutral-0: #000000;
+  --rz-color-neutral-07: #101115;
+  --rz-color-neutral-11: #191A1E;
+  --rz-color-neutral-80: #CBCBCB;
+  --rz-color-neutral-100: #FFFFFF;
+
+  --rz-color-blue-40: #005fCC;
+
+  --rz-text-color-default: var(--rz-color-neutral-07);
+  --rz-text-color-reverse: var(--rz-color-neutral-100);
+
+  --rz-background-color-default: var(--rz-color-neutral-100);
+  --rz-background-color-medium: var(--rz-color-neutral-11);
+  --rz-background-color-dark: var(--rz-color-neutral-07);
+
+  --rz-icon-color-default: var(--rz-color-neutral-80);
+  --rz-icon-color-hover: var(--rz-color-neutral-0);
+
+  --rz-box-shadow: 0 0 12px rgb(16 17 21 / .25);
+
+  --rz-border-color-reverse: var(--rz-color-neutral-100);
+  --rz-border-color-focus: var(--rz-color-blue-40);
+
+  --rz-font-size-s: 14px;
+  --rz-font-size-m: 16px;
+  --rz-font-size-l: 24px;
+  --rz-font-size-xl: 48px;
+
+  --rz-space-s: 8px;
+  --rz-space-m: 16px;
+  --rz-space-l: 24px;
+  --rz-space-xl: 32px;
+  --rz-space-xxl: 64px;
+
+  --rz-transition-speed-default: .3s;
+}

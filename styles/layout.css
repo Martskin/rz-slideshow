@@ -1,0 +1,21 @@
+.rz-layout__main {
+  padding: var(--rz-space-xl) 0 0;
+}
+
+.rz-layout__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--rz-space-m);
+}
+
+.rz-layout__level-1 {
+  color: var(--rz-text-color-default);
+  font-size: var(--rz-font-size-xl);
+  line-height: 1;
+  margin: 0 0 var(--rz-space-s);
+}
+
+.rz-layout__p {
+  color: var(--rz-text-color-default);
+  margin: 0 0 var(--rz-space-xl);
+}
