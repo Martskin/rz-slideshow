@@ -8,13 +8,21 @@ Installation:
  yarn install
 ```
 
-Start app:
+Run local app:
 
 ```bash
  yarn dev
 ```
 
 The local server should run at [Slideshow](http://localhost:3000)
+
+Build static site:
+
+```bash
+yarn build && yarn export
+```
+
+Netlify preview deploy [Slideshow](https://rz-slideshow.netlify.app/)
 
 ---
 
